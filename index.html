@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title"       content="GENESYS" />
+  <meta property="og:site_name"   content="GENESYS"/>
+  <meta property="og:description" content="Genesys - a NeuroTechOtt Club" />
+  <title>Genesys Group</title>
+  <!--bootstrap + opensuse theme -->
+  <link href="build/css/openSUSE.min.css" type="text/css" rel="stylesheet" />
+  <!--external libraries CSS -->
+  <link href="build/css/vendor.min.css"   type="text/css" rel="stylesheet" />
+  <!--custom + external libraries JS -->
+  <script src="build/js/main.min.js"      type="text/javascript"></script>
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <link rel="shortcut icon" href="build/images/GENESYS.png">
+
+</head>
+<body style="opacity:0.9">
+  <div class="finger-detection-open-menu visible-xs"></div>
+  <header style="background-color: transparent">
+    <div class="container-fluid" >
+      <div class="row">
+        <div class="col-sm-2 logo">
+          <a href="#">
+            <img style="width: 75%" src="build/images/GENESYSLogo.png"/>
+          </a>
+          <i class="fa fa-bars fa-lg pull-left visible-xs" id="open_main_menu"></i>
+        </div>
+        <nav class="hidden-xs col-sm-10 text-right wow fadeIn" id="main-menu">
+          <ul>
+            <li>
+              <a class='smoothScroll' id="home" style="color:#1d635c" data-linkto='opensuse-os' href="#"><span lang="en">Home</span></a>
+            </li>
+            <li>
+              <a class='smoothScroll' style="color:#1d635c" data-linkto='opensuse-tools' href="#"><span lang="en">About</span></a>
+            </li>
+            <li>
+              <a class='smoothScroll' style="color:#1d635c" data-linkto='news' href="#"><span lang="en">News</span></a>
+            </li>
+            <li>
+              <a class='smoothScroll' style="color:#1d635c" data-linkto='opensuse-conferences' href="#"><span lang="en">Join</span></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <aside>
+    <!--grabs content from #main-menu on mobile devices or small screens only -->
+  </aside>
+
+  <a href="#" class='smoothScroll go-to-top' data-linkto='opensuse-os'>
+    <i class="fa-chevron-up fa"></i>
+    Up
+  </a>
+
+  <section id="opensuse-os" data-vide-bg="./animations/mitosiswhite.mp4" data-vide-options="loop: true, muted: true, position: 0% 50%" style="background-color:transparent;">
+    <article class="container-fluid">
+      <h1 class="text-center fadeInUp" style="color:#232324" lang="en"></h1>
+      <div class="row os-main">
+        <div class="col-sm-6 text-center wow fadeIn" data-wow-delay=".2s">
+          <div id="tumbleweed">
+            <div class="distributions-icon">
+              <img src="build/images/virus.png" class="wow bounceInDown"  data-wow-delay=".7s" />
+            </div>
+            <h1 class=" fadeIn" style="color:#232324" data-wow-delay=".5s">Genomics</h1>
+            <!-- <h4 class="wow fadeIn" style="color:#232324" data-wow-delay=".6s" lang="en">Placeholder</h4> -->
+          </div>
+        </div>
+        <div class="col-sm-6 text-center wow fadeIn" data-wow-delay=".2s">
+          <div id="openSUSE">
+            <div class="distributions-icon">
+              <img src="build/images/brain.png" class="distributions-icon wow bounceInDown"  data-wow-delay=".7s" />
+            </div>
+            <h1 class=" fadeIn" style="color:#232324" data-wow-delay=".5s">Neuroscience</h1>
+            <!-- <h4 class="wow fadeIn" style="color:#232324" data-wow-delay=".6s" lang="en">Placeholder</h4> -->
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section id="opensuse-tools">
+    <article class="container-fluid">
+      <h1 class="text-center opensuse-blue wow fadeInUp" lang="en">Our Mission</h1>
+      <h4 class="text-center wow fadeInUp" lang="en">GENESYS is a society of students and researchers based out of Carleton University with an interest in tackling  </h4>
+      <h4 class="text-center wow fadeInUp" lang="en">leading edge problems in the domain of neuroscience, artificial intelligence, and bioinformatics. Unlike a traditional student club</h4>
+      <h4 class="text-center wow fadeInUp" lang="en">or society, we have an underlying mission: to improve on state-of-the-art technologies through collaboration and consultation with</h4>
+      <h4 class="text-center wow fadeInUp" lang="en">experts in academia and industry. We act as a platform for technological innovation and maintain a network of outstanding scientists and engineers</h4>
+      <h4 class="text-center wow fadeInUp" lang="en">who are eager to apply their skills to real-world problems and push their abilities to their limits.</h4>
+      <div class="row tools-container">
+        <div class="col-md-6">
+          <div class="media wow slideInLeft">
+            <div class="media-left">
+                <img class="media-object" src="build/images/tools/obs.svg" alt="Open Build Service (OBS)">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading opensuse-blue strong-title">
+                  Community
+                </h4>
+              <p lang="en"> Community is everything! We consist of developers, designers, engineers, scientists, entrepreneurs and individuals from many discplines.
+              The collective efforts of the members of our community is the core of Genesys's existence.</p>
+            </div>
+          </div>
+          <div class="media wow slideInLeft">
+            <div class="media-left">
+                <img class="media-object" src="build/images/tools/openqa.svg" alt="openQA">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading opensuse-blue strong-title">
+                  Education
+                </h4>
+              <p lang="en">Our goals is to faciliate the research and development of neurotech, neuroscience and genomics.
+              As a club focused on domains that are rapidly growing, we strongly value learning, educating and sharing.</p>
+            </div>
+          </div>
+          <div class="media wow slideInLeft">
+            <div class="media-left">
+                <img class="media-object" src="build/images/tools/yast.svg" alt="YaST">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading opensuse-blue strong-title">
+                  Innovation
+                </h4>
+              <p lang="en">Genomics and neuroscience are growing fields with many challenges. Can we utilize newer AI techniques
+                to solve these challenges? How can we improve brain-computer-interfaces? What is deep learning?
+                Questions like these makes us excited and we want to make it easier for passionate students to innovate
+                in these areas!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <div class="gray-triangular-division wow slideInDown"></div>
+
+  <section id="news">
+    <article class="container-fluid">
+      <h2 class="text-center opensuse-blue strong-title">NEWS</h2>
+      <h3 class="text-center opensuse-blue">Join our slack channel!</h3>
+      <div style="margin:auto;width:50%;">
+        <a href="https://genesys-slack-invite.herokuapp.com/" target="_blank">
+          <img style="width:auto;height:300px;display:block;margin:auto;" src="build/images/slack-logo-vector.jpg"/>
+        </a>
+      </div>
+      <div class="text-center wow slideInDown">
+        <img src="build/images/news-icon.png" />
+      </div>
+      <div id="owl-slide-news" class="owl-carousel opensuse-news">
+      </div>
+    </article>
+  </section>
+  <section id="opensuse-conferences">
+    <div class="section-background"></div>
+    <article>
+      <h2 class="strong-title wow slideInDown" lang="en">Subscribe to our mailing list to be updated on the latest from us!</h2>
+      <div id="mc_embed_signup">
+          <form action="//genesysgroup.us16.list-manage.com/subscribe/post?u=30b02a9e0f9d768f4b64ecdce&amp;id=48f7c795b0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                  <div class="mc-field-group form-group">
+                  	<input type="email" value="" name="EMAIL" class="required email form-control" style="width:30%;margin:auto;" id="mce-EMAIL" placeholder="Email Address">
+                  </div>
+          	      <div id="mce-responses" class="clear">
+          	      	<div class="response" id="mce-error-response" style="display:none"></div>
+          	      	<div class="response" id="mce-success-response" style="display:none"></div>
+          	      </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_30b02a9e0f9d768f4b64ecdce_48f7c795b0" tabindex="-1" value="">
+                  </div>
+                  <div class="clear">
+                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn" style="width:30%;margin:auto;">
+                  </div>
+              </div>
+          </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+    </article>
+  </section>
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    (function() {
+      var u="//beans.opensuse.org/piwik/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', 10]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+
+    !(function(root, factory) {
+      if (typeof define === 'function' && define.amd) {
+        define(['jquery'], factory);
+      } else if (typeof exports === 'object') {
+        factory(require('jquery'));
+      } else {
+        factory(root.jQuery);
+      }
+    })(this, function($) {
+
+      'use strict';
+
+      /**
+       * Name of the plugin
+       * @private
+       * @const
+       * @type {String}
+       */
+      var PLUGIN_NAME = 'vide';
+
+      /**
+       * Default settings
+       * @private
+       * @const
+       * @type {Object}
+       */
+      var DEFAULTS = {
+        volume: 1,
+        playbackRate: 1,
+        muted: true,
+        loop: true,
+        autoplay: true,
+        position: '50% 50%',
+        posterType: 'detect',
+        resizing: true,
+        bgColor: 'transparent',
+        className: ''
+      };
+
+      /**
+       * Not implemented error message
+       * @private
+       * @const
+       * @type {String}
+       */
+      var NOT_IMPLEMENTED_MSG = 'Not implemented';
+
+      /**
+       * Parse a string with options
+       * @private
+       * @param {String} str
+       * @returns {Object|String}
+       */
+      function parseOptions(str) {
+        var obj = {};
+        var delimiterIndex;
+        var option;
+        var prop;
+        var val;
+        var arr;
+        var len;
+        var i;
+
+        // Remove spaces around delimiters and split
+        arr = str.replace(/\s*:\s*/g, ':').replace(/\s*,\s*/g, ',').split(',');
+
+        // Parse a string
+        for (i = 0, len = arr.length; i < len; i++) {
+          option = arr[i];
+
+          // Ignore urls and a string without colon delimiters
+          if (
+            option.search(/^(http|https|ftp):\/\//) !== -1 ||
+            option.search(':') === -1
+          ) {
+            break;
+          }
+
+          delimiterIndex = option.indexOf(':');
+          prop = option.substring(0, delimiterIndex);
+          val = option.substring(delimiterIndex + 1);
+
+          // If val is an empty string, make it undefined
+          if (!val) {
+            val = undefined;
+          }
+
+          // Convert a string value if it is like a boolean
+          if (typeof val === 'string') {
+            val = val === 'true' || (val === 'false' ? false : val);
+          }
+
+          // Convert a string value if it is like a number
+          if (typeof val === 'string') {
+            val = !isNaN(val) ? +val : val;
+          }
+
+          obj[prop] = val;
+        }
+
+        // If nothing is parsed
+        if (prop == null && val == null) {
+          return str;
+        }
+
+        return obj;
+      }
+
+      /**
+       * Parse a position option
+       * @private
+       * @param {String} str
+       * @returns {Object}
+       */
+      function parsePosition(str) {
+        str = '' + str;
+
+        // Default value is a center
+        var args = str.split(/\s+/);
+        var x = '50%';
+        var y = '50%';
+        var len;
+        var arg;
+        var i;
+
+        for (i = 0, len = args.length; i < len; i++) {
+          arg = args[i];
+
+          // Convert values
+          if (arg === 'left') {
+            x = '0%';
+          } else if (arg === 'right') {
+            x = '100%';
+          } else if (arg === 'top') {
+            y = '0%';
+          } else if (arg === 'bottom') {
+            y = '100%';
+          } else if (arg === 'center') {
+            if (i === 0) {
+              x = '50%';
+            } else {
+              y = '50%';
+            }
+          } else {
+            if (i === 0) {
+              x = arg;
+            } else {
+              y = arg;
+            }
+          }
+        }
+
+        return { x: x, y: y };
+      }
+
+      /**
+       * Search a poster
+       * @private
+       * @param {String} path
+       * @param {Function} callback
+       */
+      function findPoster(path, callback) {
+        var onLoad = function() {
+          callback(this.src);
+        };
+
+        $('<img src="' + path + '.gif">').on('load', onLoad);
+        $('<img src="' + path + '.jpg">').on('load', onLoad);
+        $('<img src="' + path + '.jpeg">').on('load', onLoad);
+        $('<img src="' + path + '.png">').on('load', onLoad);
+      }
+
+      /**
+       * Vide constructor
+       * @param {HTMLElement} element
+       * @param {Object|String} path
+       * @param {Object|String} options
+       * @constructor
+       */
+      function Vide(element, path, options) {
+        this.$element = $(element);
+
+        // Parse path
+        if (typeof path === 'string') {
+          path = parseOptions(path);
+        }
+
+        // Parse options
+        if (!options) {
+          options = {};
+        } else if (typeof options === 'string') {
+          options = parseOptions(options);
+        }
+
+        // Remove an extension
+        if (typeof path === 'string') {
+          path = path.replace(/\.\w*$/, '');
+        } else if (typeof path === 'object') {
+          for (var i in path) {
+            if (path.hasOwnProperty(i)) {
+              path[i] = path[i].replace(/\.\w*$/, '');
+            }
+          }
+        }
+
+        this.settings = $.extend({}, DEFAULTS, options);
+        this.path = path;
+
+        // https://github.com/VodkaBears/Vide/issues/110
+        try {
+          this.init();
+        } catch (e) {
+          if (e.message !== NOT_IMPLEMENTED_MSG) {
+            throw e;
+          }
+        }
+      }
+
+      /**
+       * Initialization
+       * @public
+       */
+      Vide.prototype.init = function() {
+        var vide = this;
+        var path = vide.path;
+        var poster = path;
+        var sources = '';
+        var $element = vide.$element;
+        var settings = vide.settings;
+        var position = parsePosition(settings.position);
+        var posterType = settings.posterType;
+        var $video;
+        var $wrapper;
+
+        // Set styles of a video wrapper
+        $wrapper = vide.$wrapper = $('<div>')
+          .addClass(settings.className)
+          .css({
+            position: 'absolute',
+            'z-index': -1,
+            top: 0,
+            left: 0,
+            bottom: 0,
+            right: 0,
+            overflow: 'hidden',
+            '-webkit-background-size': 'cover',
+            '-moz-background-size': 'cover',
+            '-o-background-size': 'cover',
+            'background-size': 'cover',
+            'background-color': settings.bgColor,
+            'background-repeat': 'no-repeat',
+            'background-position': position.x + ' ' + position.y
+          });
+
+        // Get a poster path
+        if (typeof path === 'object') {
+          if (path.poster) {
+            poster = path.poster;
+          } else {
+            if (path.mp4) {
+              poster = path.mp4;
+            } else if (path.webm) {
+              poster = path.webm;
+            } else if (path.ogv) {
+              poster = path.ogv;
+            }
+          }
+        }
+
+        // Set a video poster
+        if (posterType === 'detect') {
+          findPoster(poster, function(url) {
+            $wrapper.css('background-image', 'url(' + url + ')');
+          });
+        } else if (posterType !== 'none') {
+          $wrapper.css('background-image', 'url(' + poster + '.' + posterType + ')');
+        }
+
+        // If a parent element has a static position, make it relative
+        if ($element.css('position') === 'static') {
+          $element.css('position', 'relative');
+        }
+
+        $element.prepend($wrapper);
+
+        if (typeof path === 'object') {
+          if (path.mp4) {
+            sources += '<source src="' + path.mp4 + '.mp4" type="video/mp4">';
+          }
+
+          if (path.webm) {
+            sources += '<source src="' + path.webm + '.webm" type="video/webm">';
+          }
+
+          if (path.ogv) {
+            sources += '<source src="' + path.ogv + '.ogv" type="video/ogg">';
+          }
+
+          $video = vide.$video = $('<video>' + sources + '</video>');
+        } else {
+          $video = vide.$video = $('<video>' +
+            '<source src="' + path + '.mp4" type="video/mp4">' +
+            '<source src="' + path + '.webm" type="video/webm">' +
+            '<source src="' + path + '.ogv" type="video/ogg">' +
+            '</video>');
+        }
+
+        // https://github.com/VodkaBears/Vide/issues/110
+        try {
+          $video
+
+            // Set video properties
+            .prop({
+              autoplay: settings.autoplay,
+              loop: settings.loop,
+              volume: settings.volume,
+              muted: settings.muted,
+              defaultMuted: settings.muted,
+              playbackRate: settings.playbackRate,
+              defaultPlaybackRate: settings.playbackRate
+            });
+        } catch (e) {
+          throw new Error(NOT_IMPLEMENTED_MSG);
+        }
+
+        // Video alignment
+        $video.css({
+          margin: 'auto',
+          position: 'absolute',
+          'z-index': -1,
+          top: position.y,
+          left: position.x,
+          '-webkit-transform': 'translate(-' + position.x + ', -' + position.y + ')',
+          '-ms-transform': 'translate(-' + position.x + ', -' + position.y + ')',
+          '-moz-transform': 'translate(-' + position.x + ', -' + position.y + ')',
+          transform: 'translate(-' + position.x + ', -' + position.y + ')',
+
+          // Disable visibility, while loading
+          visibility: 'hidden',
+          opacity: 0
+        })
+
+        // Resize a video, when it's loaded
+        .one('canplaythrough.' + PLUGIN_NAME, function() {
+          vide.resize();
+        })
+
+        // Make it visible, when it's already playing
+        .one('playing.' + PLUGIN_NAME, function() {
+          $video.css({
+            visibility: 'visible',
+            opacity: 1
+          });
+          $wrapper.css('background-image', 'none');
+        });
+
+        // Resize event is available only for 'window'
+        // Use another code solutions to detect DOM elements resizing
+        $element.on('resize.' + PLUGIN_NAME, function() {
+          if (settings.resizing) {
+            vide.resize();
+          }
+        });
+
+        // Append a video
+        $wrapper.append($video);
+      };
+
+      /**
+       * Get a video element
+       * @public
+       * @returns {HTMLVideoElement}
+       */
+      Vide.prototype.getVideoObject = function() {
+        return this.$video[0];
+      };
+
+      /**
+       * Resize a video background
+       * @public
+       */
+      Vide.prototype.resize = function() {
+        if (!this.$video) {
+          return;
+        }
+
+        var $wrapper = this.$wrapper;
+        var $video = this.$video;
+        var video = $video[0];
+
+        // Get a native video size
+        var videoHeight = video.videoHeight;
+        var videoWidth = video.videoWidth;
+
+        // Get a wrapper size
+        var wrapperHeight = $wrapper.height();
+        var wrapperWidth = $wrapper.width();
+
+        if (wrapperWidth / videoWidth > wrapperHeight / videoHeight) {
+          $video.css({
+
+            // +2 pixels to prevent an empty space after transformation
+            width: wrapperWidth + 2,
+            height: 'auto'
+          });
+        } else {
+          $video.css({
+            width: 'auto',
+
+            // +2 pixels to prevent an empty space after transformation
+            height: wrapperHeight + 2
+          });
+        }
+      };
+
+      /**
+       * Destroy a video background
+       * @public
+       */
+      Vide.prototype.destroy = function() {
+        delete $[PLUGIN_NAME].lookup[this.index];
+        this.$video && this.$video.off(PLUGIN_NAME);
+        this.$element.off(PLUGIN_NAME).removeData(PLUGIN_NAME);
+        this.$wrapper.remove();
+      };
+
+      /**
+       * Special plugin object for instances.
+       * @public
+       * @type {Object}
+       */
+      $[PLUGIN_NAME] = {
+        lookup: []
+      };
+
+      /**
+       * Plugin constructor
+       * @param {Object|String} path
+       * @param {Object|String} options
+       * @returns {JQuery}
+       * @constructor
+       */
+      $.fn[PLUGIN_NAME] = function(path, options) {
+        var instance;
+
+        this.each(function() {
+          instance = $.data(this, PLUGIN_NAME);
+
+          // Destroy the plugin instance if exists
+          instance && instance.destroy();
+
+          // Create the plugin instance
+          instance = new Vide(this, path, options);
+          instance.index = $[PLUGIN_NAME].lookup.push(instance) - 1;
+          $.data(this, PLUGIN_NAME, instance);
+        });
+
+        return this;
+      };
+
+      $(document).ready(function() {
+        var $window = $(window);
+
+        // Window resize event listener
+        $window.on('resize.' + PLUGIN_NAME, function() {
+          for (var len = $[PLUGIN_NAME].lookup.length, i = 0, instance; i < len; i++) {
+            instance = $[PLUGIN_NAME].lookup[i];
+
+            if (instance && instance.settings.resizing) {
+              instance.resize();
+            }
+          }
+        });
+
+        // https://github.com/VodkaBears/Vide/issues/68
+        $window.on('unload.' + PLUGIN_NAME, function() {
+          return false;
+        });
+
+        // Auto initialization
+        // Add 'data-vide-bg' attribute with a path to the video without extension
+        // Also you can pass options throw the 'data-vide-options' attribute
+        // 'data-vide-options' must be like 'muted: false, volume: 0.5'
+        $(document).find('[data-' + PLUGIN_NAME + '-bg]').each(function(i, element) {
+          var $element = $(element);
+          var options = $element.data(PLUGIN_NAME + '-options');
+          var path = $element.data(PLUGIN_NAME + '-bg');
+
+          $element[PLUGIN_NAME](path, options);
+        });
+      });
+
+    });
+
+  </script>
+  <noscript><p><img src="//beans.opensuse.org/piwik/piwik.php?idsite=10" style="border:0;" alt="" /></p></noscript>
+  <!-- End Piwik Code -->
+  <div class="hidden-content">
+     <!-- FIXME: text is in ./assets/js/opensuse-theme.js -->
+    <span lang="en">Back to main page</span>
+  </div>
+</body>
+</html>
