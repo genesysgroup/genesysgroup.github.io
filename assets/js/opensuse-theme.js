@@ -448,7 +448,7 @@ var contributionInterpolation = function () {
 
 // Add "openSUSE Linux OS" to the document Title
 $(document).on("ready", function() {
-  $("title").prepend('openSUSE - Linux OS. ')
+  $("title").prepend('')
 })
 
 // check if SVG is supported by the user's browser
